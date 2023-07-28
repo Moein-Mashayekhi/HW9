@@ -5,6 +5,7 @@ function objectToString(obj) {
       result += `${key}@@${obj[key]}&&`;
     }
     // Remove the last separator character '&&'
+
     return result.slice(0, -2);
   }
   
